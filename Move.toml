@@ -1,0 +1,16 @@
+[package]
+name = "ravali2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ravali_addr="0x441f3ad3e2cac06574faade7d98a5cccfd021f45cc91a9b1eb6c1b61d24d8be2"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
